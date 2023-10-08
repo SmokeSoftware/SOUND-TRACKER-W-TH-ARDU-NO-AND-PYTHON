@@ -7,7 +7,7 @@ import tkinter as tk
 from tkinter import*
 import time
 
-arduino = serial.Serial('COM4',9600,timeout = 5) 
+arduino = serial.Serial('COM4',9600,timeout = 5) # edit this part your port adress
 
 APP = tk.Tk()
 APP.title("ARDUİNO SOUND ADJUNMENT")
